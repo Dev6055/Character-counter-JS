@@ -38,7 +38,7 @@ document.querySelector(".sound-btn").addEventListener("click", () => {
 // Key points 
 // Using copying functionality of navigator object & web api interface for voice functionality 
 
-Character-counter-JS
+// Character-counter-JS
 
 // Character counter made using Html , Css and Javascript. This project gives a glimpse of Javascript concepts like copying functionality of navigator object & web api interface implementation for voice functionality.
 
