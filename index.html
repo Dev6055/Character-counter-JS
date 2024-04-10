@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Real Time Conunter</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Real Time character Counter</h2>
+      <p>
+        Check your English text for grammar, spelling, and punctuation errors.
+        Login grammerly and enjoy.
+      </p>
+
+      <textarea
+        id="textarea"
+        class="textarea"
+        placeholder="Enter your text here"
+        maxlength="150"
+      ></textarea>
+
+      <button class="copy-btn" onclick="copyText()">Copy Text</button>
+      <button class="sound-btn"> <img class="sound" src="img/sound.png" alt=""> </button>
+      
+      <!-- <img src="img/sound.png" alt=""> -->
+
+      <div class="counter-container">
+        <p>Total character: <span id="total-conter"> 0</span></p>
+        <p>
+          Remaining:
+          <span class="remaining-counter" id="remaining-counter">150</span>
+        </p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
